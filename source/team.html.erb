@@ -1,0 +1,11 @@
+<div class="container about-content">
+  <ul class="list-inline text-center">
+    <h2>This template is built with love by</h2>
+    <% ["léa", "simon"].each do |gh_username| %>
+      <li>
+        <%= image_tag "#{gh_username}.png", class: "img-circle" %>
+        <h3><%= gh_username.capitalize %></h3>
+      </li>
+    <% end %>
+  </ul>
+</div>

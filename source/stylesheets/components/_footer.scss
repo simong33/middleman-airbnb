@@ -1,0 +1,10 @@
+.footer {
+  background-color: lightgrey;
+  padding: 20px;
+  a{
+    color:darkgrey;
+    &:hover{
+      color: white;
+    }
+  }
+}
